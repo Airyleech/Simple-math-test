@@ -14,7 +14,7 @@ def sub(): #This is for subtraction
     a = random.randint(1, 100)
     b = random.randint(1,100)
     mathFormula = a - b
-    if mathFormula <= 0: #This does not allow the first number to be smaller than the larger number (so not negative numbers)
+    if mathFormula <= 0: #This does not allow the first number to be smaller than the second number (so not negative numbers)
         sub()
     else:
         mathFormulaUser = f"{a} - {b}"
